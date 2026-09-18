@@ -1,5 +1,5 @@
 ## TShell
-A minimalist C++ terminal shell with history tracking and status code display.
+A minimalist C++ terminal shell.
 ## Dependencies
 
 * C++17 compiler
@@ -15,6 +15,7 @@ g++ -std=c++17 main.cpp -o tshell -lreadline
 
 ## Builtins
 
-cd [path] — Change directory (defaults to $HOME)
+TS_ChangeColor - Change color
 exitplease — Exit the shell
 
+# Enjoy!
